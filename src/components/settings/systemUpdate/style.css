@@ -1,0 +1,28 @@
+.system {
+	background: #1e1e1e;
+}
+.system .system-heading {
+	background: #262626;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.system .system-section {
+	margin-bottom: 20px;
+	padding: 50px 20px;
+	background: #262626;
+}
+.system-bottom h5 {
+	color: #fff;
+}
+.system-bottom button {
+	background: #25aae1;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}

@@ -1,0 +1,46 @@
+.custom-control-input:checked ~ .custom-control-label::before {
+	background: #b9e0dc;
+	border: #b9e0dc;
+}
+.custom-control-label::before {
+	background: #b9b9b9;
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+	background: #009385;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	top: calc(0.25rem + -2px);
+	transform: translateX(1.75rem);
+}
+.custom-switch .custom-control-label::after {
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	top: calc(0.25rem + -2px);
+	left: calc(-3rem + 2px);
+	background: #ededed;
+}
+.setting-date ul {
+	padding: 0px 20px;
+}
+.setting-date ul li {
+	border-bottom: 1px solid #eee;
+	padding: 10px 0px;
+}
+.setting-date ul li img {
+	width: 30px;
+}
+.setting-date .custom-switch {
+	top: 15px;
+}
+.setting-date .text-muted {
+	color: #b9b9b9 !important;
+}
+.setting-date .wifi-status {
+	background: #37474f;
+	padding: 15px 25px;
+}
+.setting-date .wifi-status .custom-switch {
+	top: 0 !important;
+}

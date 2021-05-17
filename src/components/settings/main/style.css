@@ -1,0 +1,42 @@
+.settings {
+	float: left;
+	width: 100%;
+	padding: 50px 20px;
+	background: #1e1e1e;
+}
+.settings span {
+	color: #fff;
+	font-size: 15px;
+}
+.settings .heading {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.settings button {
+	background: #464646;
+	border: 1px solid #299cce;
+	border-radius: 20px;
+	padding: 5px 20px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+.settings li {
+	border-bottom: 2px solid #464646;
+	float: left;
+	width: 100%;
+	padding: 15px 0px;
+	cursor: pointer;
+}
+.settings li span a {
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+}
+.settings li .date {
+	line-height: 30px;
+}
+.settings li .label {
+	line-height: 70px;
+}

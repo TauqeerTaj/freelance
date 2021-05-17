@@ -1,0 +1,8 @@
+.setting-header {
+	background: #263238;
+	padding: 30px;
+}
+.setting-header span,
+strong {
+	color: #fff;
+}

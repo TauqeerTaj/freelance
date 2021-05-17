@@ -1,0 +1,29 @@
+.modal {
+	top: 100px !important;
+	color: #fff;
+}
+.modal-content {
+	background: #424242;
+}
+.modal-header {
+	border: none;
+}
+.modal-title {
+	font-size: 20px;
+}
+.modal-footer {
+	border: none;
+}
+.modal-footer button {
+	background: none;
+	border: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+.modal-footer button:hover {
+	background: #9a241c;
+}
+.modal-footer button:first-child {
+	float: left;
+	margin-right: auto;
+}
